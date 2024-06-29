@@ -1,0 +1,22 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "license": "ISC",
+    "author": "rajat kumar <rajatkumartx@gmail.com>",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "node --env-file=.env --watch -r ts-node/register src/index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.9",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.2"
+    },
+    "engines": {
+        "node": ">=20.6.0"
+    }
+}
